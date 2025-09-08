@@ -23,7 +23,7 @@ const HomeSection = () => {
 
           <div className="col-md-5 text-center">
             <div className="profile-img-wrapper mx-auto">
-              <img src="assets/images/dhanush.jpg.png" alt="Profile" className="profile-img img-fluid" />
+              <img src={`${process.env.PUBLIC_URL}/assets/images/dhanush.jpg.png`} alt="Dhanush" />
             </div>
           </div>
 

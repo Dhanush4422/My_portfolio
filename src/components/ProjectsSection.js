@@ -6,11 +6,11 @@ const ProjectsSection = () => {
       id: 1,
       title: 'Stock Market Website',
       description: 'A responsive frontend-only stock market website built with React.js. It integrates real-time data from a third-party API and uses Redux Toolkit for state management. The UI is designed with HTML, CSS, and Bootstrap.',
-      img: 'assets/images/stcokimage.webp', 
+      img: `${process.env.PUBLIC_URL}/assets/images/stcokimage.webp`,
       alt: 'Stock Market Website Project',
       github: 'https://github.com/Dhanush4422'
     },
-   
+
   ];
 
   return (

@@ -8,8 +8,7 @@ const MyNavbar = () => {
       <Container>
         <Navbar.Brand href="#home" className="fw-bold d-flex align-items-center">
         
-          <img src="assets/images/dhanush.jpg.png" alt="Dhanush" className="rounded-circle me-2" width="40" height="40" /> 
-          Dhanush
+      <img src={`${process.env.PUBLIC_URL}/assets/images/dhanush.jpg.png`} alt="Dhanush" className="rounded-circle me-2" width="40" height="40" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
