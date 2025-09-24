@@ -11,7 +11,7 @@ const AboutSection = () => {
 
     const professionalInfo = [
         { title: 'Skills', value: 'React.js, Next.js, Redux Toolkit, JavaScript (ES6+), TypeScript, HTML5, CSS3, Bootstrap, Java (basic), SQL', icon: <FaLaptopCode /> },
-        { title: 'Experience', value: '5 months', icon: <FaBriefcase /> },
+        { title: 'Experience', value: '6 months', icon: <FaBriefcase /> },
         { title: 'Languages', value: 'English, Tamil', icon: <FaLanguage /> },
         { title: 'Desired Job Type', value: 'Full-Time', icon: <FaStar /> },
     ];
