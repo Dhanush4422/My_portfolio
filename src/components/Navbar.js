@@ -6,10 +6,18 @@ const MyNavbar = () => {
     <Navbar expand="md" fixed="top" className="custom-navbar-shadow desktop-navbar">
       <Container>
         <Navbar.Brand href="#home" className="fw-bold d-flex align-items-center gap-2">
-          <img src={`${process.env.PUBLIC_URL}/assets/images/dhanush.jpg.png`} alt="Dhanush" className="rounded-circle" width="38" height="38" />
-          <span style={{ fontFamily:'Syne,sans-serif', fontWeight:800, letterSpacing:'-0.03em'}}>Dhanush<span style={{color:'#ed254e'}}>.</span></span>
+          <img
+            src={`${process.env.PUBLIC_URL}/assets/images/dhanush.jpg.png`}
+            alt="Dhanush"
+            className="rounded-circle"
+            width="38"
+            height="38"
+          />
+          <span style={{ fontFamily: 'Syne, sans-serif', fontWeight: 800, letterSpacing: '-0.03em', color: '#0f172a' }}>
+            Dhanush<span style={{ color: '#22c55e' }}>.</span>
+          </span>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" style={{borderColor:'rgba(255,255,255,0.1)', color:'#fff'}} />
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link href="#home" className="menu-item">Home</Nav.Link>
