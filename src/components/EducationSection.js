@@ -36,7 +36,7 @@ const EducationSection = () => {
     {
       title: 'Frontend Developer — Fayn Global',
       issuer: 'Fayn Global (1 Year Work Experience)',
-      date: '2024 – 2025',
+      date: '2025 – 2026',
       icon: 'fas fa-briefcase',
       description: 'Built and maintained responsive web apps using Next.js and React.js. Integrated REST APIs and managed state with Redux Toolkit. Implemented type-safe components using TypeScript. Designed UIs with HTML, CSS, and Bootstrap. Collaborated with backend developers for seamless API communication.',
     },
